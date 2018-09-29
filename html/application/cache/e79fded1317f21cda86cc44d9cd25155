@@ -1,0 +1,476 @@
+1395943202TS---><!DOCTYPE html>
+<html>
+     <head>
+	<title>  WebPlus Cms v3  </title>
+	
+         
+    
+	<meta charset="utf-8" />
+	<meta name="keywords" content="Egypt,Portal,Arabic news,Business,Sport,midleeast,world,politics,economy,casese,arts,technology,cars,stars,cinema,Communication,free internet,07770101,DSL,online translation,soccer,football,Jet net,chat,entertainment,services,games,jokes,islamic,islameyat,weather,albums,greetings,cards,mail,free mail,free sms,ring tones,logos,mobile chat,forum,Radio Fm,Music,magazines,classifieds,مصراوي,بوابة,مصر,مصري, أخبار,سياسة,اقتصاد,رياضة,قضايا,فنون,تكنولوجيا,سيارات,ترفيه,اتصال,بريد,خدمات إنترنت,إنترنت مجاني,مصريين,مصرية,ألعاب,دردشة,نكت,كارتون,كاريكاتير,طرائف,كرة قدم,خلفيات محمول,نغمات,شعارات,رسائل مجانية,راديو,نجوم اف ام,مويسقى,البومات الصور,كروت تهنئة,مناقشات وحوارات,اسلاميات,درجات الحرارة,مجلات,جرائد,اعلانات مبوبة,لأخبار, منصة أخبار, أحدث الأخبار, احدث الأخبار تلقائياً" />
+	<meta name="description" content="محتوى متنوع من الأخبار والخدمات من بريد وترجمة ورسائل مجانية ونتائج الشهادات بالاضافة الى دردشة وراديو وألعاب واسلاميات واعلانات مبوبة والبومات الصور ومنتديات ومجلات وجرائد وكرة قدم وكروت تهنئة"  />
+	<meta name="author" content="Osama Salama"  />
+	<meta name="copyright" content="WebPlus Cms v3 2014"  />
+	
+	<link rel="stylesheet" href="http://localhost/webplus2/html/application/modules/app/views/Template/blooogi/css/style.css" />
+	<link rel="stylesheet" href="http://localhost/webplus2/html/application/modules/app/views/Template/blooogi/css/ticker-style.css" />
+ 
+	
+	<script src="http://localhost/webplus2/html/application/modules/app/views/Template/blooogi/javascript/jquery.min.js"></script>
+	<script src="http://localhost/webplus2/html/application/modules/app/views/Template/blooogi/javascript/jquery.ticker.js"></script>
+	 
+	<link rel="stylesheet/less" type="text/css" href="http://localhost/webplus2/html/application/modules/app/views/Template/blooogi/css/style.less" />
+	   <script src="http://localhost/webplus2/html/application/modules/app/views/Template/blooogi/javascript/less-1.6.3.min.js"></script>
+ 
+	
+	<script>
+		$(function () {
+			$('#js-news').ticker({
+				direction: 'rtl',
+				titleText: '',
+				debugMode: false,
+				controls: false
+			});
+			
+		/*	$(window).load(function() {
+				$('#slider').nivoSlider();
+			});
+			*/
+		});
+	</script>
+	
+</head>
+
+<body>
+
+<div id="puertoPage">
+
+	<!-- هيدر الموقع -->
+	
+	<div id="puertoHeader">
+		<div style="height:3px;background:#F88C00;"></div>
+		
+		<div class="puertoHeaderTop">
+			<ul>
+				<li class="date">
+                 <script language="JavaScript">var fixd;function isGregLeapYear(year){return year%4 == 0 && year%100 != 0 || year%400 == 0;}function gregToFixed(year, month, day){var a = Math.floor((year - 1) / 4);var b = Math.floor((year - 1) / 100);var c = Math.floor((year - 1) / 400);var d = Math.floor((367 * month - 362) / 12);if (month <= 12)e = -2;else if (month > 2 && isGregLeapYear(year))e = 1;elsee = -1;return 1 - 1 + 365 * (year - 1) + a - b + c + d + e + day;}function Hijri(year, month, day){this.year = year;this.month = month;this.day = day;this.toFixed = hijriToFixed;this.toString = hijriToString;}function hijriToFixed(){return this.day + Math.ceil(29.5 * (this.month - 1)) + (this.year - 1) * 354 +Math.floor((3 + 11 * this.year) / 30) + 227015 - 1;}function hijriToString(){var months = new Array("محرم","صفر","ربيع أول","ربيع ثانى","جمادى الأولى","جمادى  الثانية","رجب","شعبان","رمضان","شوال","ذو القعدة","ذو الحجة");return this.day + " " + months[this.month - 1]+ " " + this.year;}function fixedToHijri(f){var i=new Hijri(1100, 1, 1);i.year = Math.floor((30 * (f - 227015) + 10646) / 10631);var i2=new Hijri(i.year, 1, 1);var m = Math.ceil((f - 29 - i2.toFixed()) / 29.5) +1;i.month = Math.min(m, 12);i2.year = i.year;i2.month = i.month;i2.day = 1;i.day = f - i2.toFixed() + 1;return i;}var tod=new Date();var weekday=new Array("الأحد","الإثنين","الثلاثاء","الأربعاء","الخميس","الجمعة","السبت");var monthname=new Array("يناير","فبراير","مارس","إبريل","مايو","يونيو","يوليوز","غشت","شتنبر","أكتوبر","نونبر","دجنبر");var y = tod.getFullYear();var m = tod.getMonth();var d = tod.getDate();var dow = tod.getDay();document.write(weekday[dow] + " " + d + " " + monthname[m] + " " + y);m++;fixd=gregToFixed(y, m, d);var h=new Hijri(1421, 11, 28);h = fixedToHijri(fixd);document.write(" م  - " + h.toString() + "هـ");</script>
+
+             </li>
+				<li><a href="http://localhost/webplus2/"> الرئيسية </a></li>
+				<li><a href="http://localhost/webplus2/app/aboutus">من نحن</a></li>
+				<li><a href="http://localhost/webplus2/app/contactus">اتصل بنا</a></li>
+				<li><a href="http://localhost/webplus2/app/ads">اعلن معنا</a></li>
+				<li><a href="http://localhost/webplus2/app/info"> مركز التعليمات    </a></li>
+				<li><a href="http://localhost/webplus2/app/services ">خدماتنا</a></li>
+				<li><a href="http://localhost/webplus2/app/job">وظائف</a></li>
+			</ul>
+			<div class="lft puertoSearch">
+				<form method="get" name="formsearch" action="http://localhost/webplus2/post/search">
+					<span></span>
+					<input type="text" name="searchinput" placeHolder="ابحث ..." class="rgt" />
+					<input type="submit" value="" class="lft" />
+				</form>
+			</div>
+			<div class="clr"></div>
+		</div>
+		
+		<div class="puertoHeaderCenter">
+			<div class="lft" style="width:740px;padding:15px 0 0 3px;">
+			<img src='http://localhost/webplus2/assets/media/ads/baded7cbee983143d83063dc3a1e55e4.jpg' border='0' 
+width='' height='' />			</div>
+			<div class="rgt" style="width:222px;padding:30px 10px 0 0;">
+				<img src="http://localhost/webplus2/html/application/modules/app/views/Template/blooogi/images/logo.png" />
+			</div>
+			<div class="clr"></div>
+		</div>
+		
+		<div class="puertoHeaderBtm">
+			<ul>
+				<li><a href="http://localhost/webplus2/" class="home active"></a></li>
+				<li class="li"></li>
+				<li><a href="http://localhost/webplus2/post/category">ألاخبار والمقالات</a></li>
+				<li class="li"></li>
+				
+				<li><a href="http://localhost/webplus2/post/category/2">سياسة</a></li>
+                <li class="li"></li>    
+				
+				
+				<li><a href="http://localhost/webplus2/post/category/3">إقتصاد</a></li>
+                <li class="li"></li>    
+                
+                <li><a href="http://localhost/webplus2/post/category/4">رياضة</a></li>
+                <li class="li"></li>    
+                
+                <li><a href="http://localhost/webplus2/post/category/5">تكنولوجيا</a></li>
+                <li class="li"></li>    
+				
+				
+				
+								 
+			<li><a href="http://localhost/webplus2/video/category">قائمة الفيديو</a></li>
+				<li class="li"></li>
+				<li><a href="http://localhost/webplus2/app/register"> عضوية جديدة  </a></li>
+				<li class="li"></li>
+			</ul>
+		</div>
+	
+	</div>
+	
+	<!-- بداية وسط الصفحة -->
+	
+	<div class="puertoAds">
+		<span class="adsTitle rgt"> إعلانات إدارية: </span>
+		<span class="adsCnt rgt">
+			<ul id="js-news" class="js-hidden">
+				<!--<li><a href="#">Slider الانتهاء من تصميم عارض الصور المنزلقة Slideshow</a></li>
+				<li><a href="#">تصميم قالب مدونة - الجزء 3</a></li>
+				-->
+				<meta charset="utf-8" />
+
+			</ul>
+		</Span>
+		<div class="clr"></div>
+	</div>
+	
+	<div id="puertoHome">
+		
+		<!-- القائمة الخاصة بعرض أخر التدوينات -->
+		<div class="rgt" style="width:650px;">
+		
+		 
+	
+		  <meta charset="utf-8" />
+
+
+
+<table width="100%" class="post_list">
+ 
+   <tr>
+       <td width="3%"><img src="http://localhost/webplus2/assets/images/document-icon3.png"></td> 
+   <td> 
+       <a href="http://localhost/webplus2/post/index/ماستركارد-معدلات-نمو-ثابتة-للتسوق-عبر-الانترنت-في-مصر">ماستركارد: معدلات نمو ثابتة للتسوق عبر الانترنت في مصر </a>   </td> 
+     
+   </tr>
+   <tr><td colspan="2" height="1px" style="background-color: #ccc"></td></tr>
+     
+   <tr>
+       <td width="3%"><img src="http://localhost/webplus2/assets/images/document-icon3.png"></td> 
+   <td> 
+       <a href="http://localhost/webplus2/post/index/إكسيد-تشارك-في-مؤتمر-إدارة-خدمة-عملاء-قطاع-الاتصالات-بدبي">إكسيد تشارك في مؤتمر إدارة خدمة عملاء قطاع الاتصالات بدبي </a>   </td> 
+     
+   </tr>
+   <tr><td colspan="2" height="1px" style="background-color: #ccc"></td></tr>
+     
+   <tr>
+       <td width="3%"><img src="http://localhost/webplus2/assets/images/document-icon3.png"></td> 
+   <td> 
+       <a href="http://localhost/webplus2/post/index/سيسكو-تدخل-سباق-الحوسبة-السحابية-بخطة-قيمتها-مليار-دولار">سيسكو تدخل سباق الحوسبة السحابية بخطة قيمتها مليار دولار </a>   </td> 
+     
+   </tr>
+   <tr><td colspan="2" height="1px" style="background-color: #ccc"></td></tr>
+    <tfoot>
+    <tr>
+        <td colspan="2" align="center">
+  <p align="center"> </p> 
+    </td></tr>
+</tfoot>
+</table>		
+		
+		</div>
+		
+		<!-- القائمة الموجودة على اليمين -->
+		<div class="lft" style="width:310px;">
+			
+			     <div class="puertoLftTitle"><span>    تواصل معنا</span></div>
+            <div class="puertoLftCnt"  >
+               <!-- //بلا -->
+             <div align="center">
+            <a href="facebook page" target="_blank"> <img src="http://localhost/webplus2/html/application/modules/app/views/Template/blooogi/images/facebook-icon.png"> </a>   
+           <a href="google page" target="_blank"><img src="http://localhost/webplus2/html/application/modules/app/views/Template/blooogi/images/google-icon.png"> </a>   
+            <a href="twiiter account" target="_blank"><img src="http://localhost/webplus2/html/application/modules/app/views/Template/blooogi/images/twitter-icon.png">  </a>  
+            <a href="youtube channel" target="_blank"><img src="http://localhost/webplus2/html/application/modules/app/views/Template/blooogi/images/youtube-icon.png"></a>
+           </div>    
+               <!-- //login -->
+            </div>  
+			
+			
+			
+			
+			<div class="puertoLftTitle"><span> تسجيل الدخول  </span></div>
+            <div class="puertoLftCnt"  >
+               <!-- //login -->
+                 <meta charset="utf-8" />
+  <style>
+ .circular {
+ background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 50% 50% 50% 50%;
+    box-shadow: 0 0 3px 0 #B5B5B5;
+     width:40px;
+     height:40px;
+    margin: 0 10px 5px 0;
+    padding: 4px;
+    }
+ 
+
+.loginForm{
+    text-align: center;
+    
+    
+}
+
+</style>
+
+<div class="loginForm">
+<table border="0" cellpadding="0" cellspacing="0" >
+<form method="post" id="loginForm" >
+ <tr><td>  البريد الالكتروني</td></tr>
+ <tr><td><input type="text" size="20" name="email_login" /></td></tr>    
+ <tr><td> كلمة المرور</td></tr>      
+ <tr><td><input type="password" size="20" name="password_login" /></td></tr>        
+ <tr><td><button name="IsPost_LoginForm" value="y" type="submit"> دخول</button></td></tr>
+  <tr><td><span class="Login_link"><a href="http://localhost/webplus2/app/register">مستخدم جديد</span></a></td></tr>
+  
+ <tr><td><span class="Login_link"><a href="http://localhost/webplus2/app/restorpass">إستعادة كلمة المرور</span></a></td></tr> 
+ </form>
+</table>
+</div>
+               
+               <!-- //login -->
+            </div>
+			
+			
+			
+			
+		      <div class="puertoLftTitle"><span> إستطلاع الرأي</span></div>
+            <div class="puertoLftCnt"  >
+               <!-- //login -->
+                 <meta charset="utf-8" />
+
+ <script type="text/javascript">
+    function addvote(myform) {
+        var radio=myform.r1;
+    var valid = false;
+    for (var i = 0; i < radio.length; i++) {
+        if (radio[i].checked) {
+       //     return true;
+            // form_vote.submit();
+            valid=true;
+            break;
+        }
+    }
+    if(valid==true){
+    return true
+        }
+        else {
+                alert("من فضلك اختار إجابة من الاستبيان");
+                return false;
+            }
+
+ 
+}
+
+</script>
+
+
+
+
+<div class="poll" id="poll">
+    <form method="post" name="form_vote">
+
+<table align="center" width="100%" cellpadding="0" cellspacing="4" dir="ltr">
+<tr><td class="myselect" colspan="2" align="right">
+    
+     ما رأيك بالموقع     
+    
+    
+    
+    
+</td></tr>
+<tr><td colspan="2" height="1px" bgcolor="#cccccc"></td></tr>
+
+   
+
+
+<tr><td align="right">مدهش</td><td width="1%"><input type="radio" name="r1" value="41"></td></tr>
+<tr><td colspan="2" height="1px" bgcolor="#EEEEEE"></td></tr>
+
+
+<tr><td align="right">جيد</td><td width="1%"><input type="radio" name="r1" value="42"></td></tr>
+<tr><td colspan="2" height="1px" bgcolor="#EEEEEE"></td></tr>
+
+
+<tr><td align="right">مقبول</td><td width="1%"><input type="radio" name="r1" value="43"></td></tr>
+<tr><td colspan="2" height="1px" bgcolor="#EEEEEE"></td></tr>
+
+
+<tr><td align="right">سيء</td><td width="1%"><input type="radio" name="r1" value="44"></td></tr>
+<tr><td colspan="2" height="1px" bgcolor="#EEEEEE"></td></tr>
+
+
+
+
+
+
+
+<tr><td colspan="2" align="center">
+ 
+<button type="submit" name="IsPost_viewPolls" value="view" >عرض النتائج</button>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<button type="submit" name="IsPost_sendPolls" value="send"  onclick="return addvote(this.form)">تصويت</button>
+
+ 
+</td></tr>
+</table>
+<input type="hidden" value="czoyOiI1MyI7" name="_tkon">
+</form></div>
+               
+               <!-- //login -->
+            </div>	
+			
+			
+			
+			   <div class="puertoLftTitle"><span>   القائمة البريدية</span></div>
+            <div class="puertoLftCnt"  >
+               <!-- //login -->
+                 <meta charset="utf-8" />
+
+
+
+
+
+
+<div id="maillisting" class="maillisting">
+    
+ <form method="post" name="form_maillist" id="form_maillist" action="http://localhost/webplus2/app/elist" > 
+   <ul>
+<li>
+ <label for="email_maillist">البريد الالكتروني</label>
+<input type="text" name="email_maillist" id="email_maillist" size="20" required />
+</li>
+
+<li><select name="type_action">
+    <option value="0">إشتراك</option>
+    <option value="1">إلغاء الاشتراك</option>
+    </select>
+    
+</li>
+<li> <button type="submit" name="IsPost_emaillist" value="y" >إرسال</button></li>
+
+  </ul>
+     
+ </form>      
+    
+    
+</div>    
+
+
+
+
+
+                
+               <!-- //login -->
+            </div>  
+            
+			
+		
+		
+		
+		     <div class="puertoLftTitle"><span>  عداد الزوار    </span></div>
+            <div class="puertoLftCnt"  >
+               <!-- //login -->
+                 <meta charset="utf-8" />
+<link rel="stylesheet" href="http://localhost/webplus2/assets/lib/flag/flags.css?v=0.1" type="text/css">
+
+
+
+<div class="hitCounter">
+<img src=http://localhost/webplus2/assets/lib/counter/style2/1.png /><img src=http://localhost/webplus2/assets/lib/counter/style2/2.png /><img src=http://localhost/webplus2/assets/lib/counter/style2/3.png /><img src=http://localhost/webplus2/assets/lib/counter/style2/7.png /><img src=http://localhost/webplus2/assets/lib/counter/style2/6.png /><img src=http://localhost/webplus2/assets/lib/counter/style2/1.png /> </div>
+ 
+
+                
+               <!-- //login -->
+            </div>  
+            
+			
+			
+			
+			
+			
+			<div class="puertoLftTitle"><span> إعلانات إدارية</span></div>
+			<div class="puertoLftCnt" style="font-size:0;">
+			<img src='http://localhost/webplus2/assets/media/ads/88d788aac66c5c1adfec24b2db77f9f9.jpg' border='0' 
+width='' height='' />			</div>
+			
+			
+			<div class="puertoLftTitle" style="margin-top:25px;"><span>    المتواجدون ألان </span></div>
+			<div class="puertoLftCnt" style="padding:0;">
+			    <meta charset="utf-8" />
+<link rel="stylesheet" href="http://localhost/webplus2/assets/lib/flag/flags.css?v=0.1" type="text/css">
+
+ 
+ <div class="whoisOnline">
+  <table width="80%" cellpadding="0" cellspacing="0">
+     
+    <tr>
+     <td><img src=http://localhost/webplus2/assets/lib/flag/blank.gif class="flag flag-eg" title=" مصر" /> </td>
+     <td>مصر</td>
+     <td>3</td>    
+   </tr>
+     </table>
+ 
+  
+</div>			</div>
+			
+			<div class="puertoLftTitle" style="margin-top:25px;"><span> صفحة الموقع على الفايسبوك</span></div>
+			<div class="puertoLftCnt" style="font-size:0;">
+			<!--<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FEgyptianProgrammers&amp;width&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=502353919849267" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:290px;" allowTransparency="true"></iframe>
+ 		-->
+ 		<img src="http://localhost/webplus2/html/application/modules/app/views/Template/blooogi/images/fp.gif"/>
+ 			</div>
+			
+			 
+			 
+			 
+			 <div class="puertoLftTitle" style="margin-top:25px;"><span>    ألاوسمة</span></div>
+            <div class="puertoLftCnt" style="padding:0;">
+                <style type="text/css">
+
+.tagcloud {
+    clear:both;
+    position:relative;
+    font-size: 19px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #eeeeee;
+    background-color: #f2f2f2;
+    
+    
+   
+}
+</style>
+<div class="tagcloud" style="max-width:450px;     word-wrap:break-word;">
+    &nbsp;<a href=http://localhost/webplus2/post/tag/رياضة   style="font-size:40px">رياضة</a>&nbsp;&nbsp;<a href=http://localhost/webplus2/post/tag/سياسة   style="font-size:30px">سياسة</a>&nbsp;&nbsp;<a href=http://localhost/webplus2/post/tag/اقتصاد   style="font-size:30px">اقتصاد</a>&nbsp;&nbsp;<a href=http://localhost/webplus2/post/tag/شئون عربية   style="font-size:20px">شئون عربية</a>&nbsp;&nbsp;<a href=http://localhost/webplus2/post/tag/أوباما    style="font-size:20px">أوباما </a>&nbsp;&nbsp;<a href=http://localhost/webplus2/post/tag/الحوسبة السحابية   style="font-size:20px">الحوسبة السحابية</a>&nbsp;&nbsp;<a href=http://localhost/webplus2/post/tag/قطاع الاتصالات   style="font-size:20px">قطاع الاتصالات</a>&nbsp;&nbsp;<a href=http://localhost/webplus2/post/tag/مصر    style="font-size:20px">مصر </a>&nbsp;
+</div>
+                   
+            </div>
+			 
+			
+			
+			 
+			
+		</div>
+		
+		<div class="clr"></div>
+		
+	</div>
+		
+</div>
+
+
+<div id="puertoBtmFooter">
+	Programmed  By Osama Salama. &copy; 2014 - 2015 All rights reserved.
+</div>
+
+
+</body>
+</html>

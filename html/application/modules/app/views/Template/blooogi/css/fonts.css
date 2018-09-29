@@ -1,0 +1,6 @@
+@font-face {
+    font-family: "puertoHelve";
+        src: url("fonts/HelveticaNeueW23-Reg/HelveticaNeueW23-Reg.eot");
+        src: url("fonts/HelveticaNeueW23-Reg/HelveticaNeueW23-Reg.eot?") format("eot"),
+             url("fonts/HelveticaNeueW23-Reg/HelveticaNeueW23-Reg.ttf") format("truetype");
+}

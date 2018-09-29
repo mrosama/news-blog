@@ -1,0 +1,449 @@
+@font-face {
+    font-family: "puertoHelve";
+        src: url("fonts/HelveticaNeueW23-Reg/HelveticaNeueW23-Reg.eot");
+        src: url("fonts/HelveticaNeueW23-Reg/HelveticaNeueW23-Reg.eot?") format("eot"),
+             url("fonts/HelveticaNeueW23-Reg/HelveticaNeueW23-Reg.ttf") format("truetype");
+}
+@import "custom-style";
+
+.raduis(@val:5px){
+    
+    -moz-border-radius: @val;
+    -webkit-border-radius:@val;
+    -o-border-radius:@val;
+     -ms-border-radius:@val;
+    border-radius:@val;
+    
+}
+
+.inp2 {
+    behavior:url(PIE.htc);
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+     background:#eee url(../images/16/mail.png) no-repeat 95% center;
+    box-shadow:0 0 0 1px #ddd, inset 0 1px 0 #fff;
+    -moz-box-shadow:0 0 0 1px #ddd, inset 0 1px 0 #fff;
+    -webkit-box-shadow:0 0 0 1px #ddd, inset 0 1px 0 #fff;
+    padding:7px 40px 5px 5px;
+    font-family:"puertoHelve",tahoma;
+    font-size:12px;
+    color:#555;
+    text-shadow:0 1px 0 #fff;
+    margin:10px 5px;
+    width:245px;
+}
+
+.inp3 {
+    behavior:url(PIE.htc);
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+     background:#eee url(../images/16/checked_out.png) no-repeat 95% center;
+    box-shadow:0 0 0 1px #ddd, inset 0 1px 0 #fff;
+    -moz-box-shadow:0 0 0 1px #ddd, inset 0 1px 0 #fff;
+    -webkit-box-shadow:0 0 0 1px #ddd, inset 0 1px 0 #fff;
+    padding:7px 40px 5px 5px;
+    font-family:"puertoHelve",tahoma;
+    font-size:12px;
+    color:#555;
+    text-shadow:0 1px 0 #fff;
+    margin:10px 5px;
+    width:245px;
+}
+
+
+
+.selectbtn {
+    behavior:url(PIE.htc);
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+     background:#eee   center;
+    box-shadow:0 0 0 1px #ddd, inset 0 1px 0 #fff;
+    -moz-box-shadow:0 0 0 1px #ddd, inset 0 1px 0 #fff;
+    -webkit-box-shadow:0 0 0 1px #ddd, inset 0 1px 0 #fff;
+    padding:7px 40px 5px 5px;
+    font-family:"puertoHelve",tahoma;
+    font-size:12px;
+    color:#555;
+    text-shadow:0 1px 0 #fff;
+    margin:10px 5px;
+    width:245px;
+}
+
+
+
+
+.submit {
+    behavior:url(PIE.htc);
+    background:-webkit-linear-gradient(#FFB148,#F88C00);
+    background:-moz-linear-gradient(#FFB148,#F88C00);
+    background:-ms-linear-gradient(#FFB148,#F88C00);
+    background:-o-linear-gradient(#FFB148,#F88C00);
+    background:linear-gradient(#FFB148,#F88C00);
+    -pie-background:linear-gradient(#FFB148,#F88C00);
+    box-shadow:0 0 0 1px #B36700, inset 0 1px 0 #FFD9A6;
+    -moz-box-shadow:0 0 0 1px #B36700, inset 0 1px 0 #FFD9A6;
+    -webkit-box-shadow:0 0 0 1px #B36700, inset 0 1px 0 #FFD9A6;
+    font-family:"puertoHelve",tahoma;
+    font-size:12px;
+    color:#B36700;
+    padding:5px 20px;
+    font-weight:bold;
+    text-shadow:0 1px 0 #FFBC62;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+
+
+.fontme(@val:12px){
+    font-family:"puertoHelve",tahoma;
+    font-size:@val;
+}
+ 
+.loginForm table td{
+    
+    color: #000;
+    .fontme(15px);
+    
+}
+
+.loginForm input[type='text'] {
+.inp2();   
+    
+}
+.loginForm input[type='password'] {
+.inp3();   
+    
+}
+.loginForm button {
+    .submit();
+}
+
+.Login_link a{
+         
+   
+    font-size:15px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+    color:#555;
+}
+
+
+.Error_Login {
+     font-size:15px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+     color:#D62728;
+    
+}
+
+
+.profile table td{
+    font-size:15px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+     color:#777;
+    
+}
+
+.profile a{
+     font-size:15px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+    color:#555; 
+    
+}
+
+
+.poll table td{ 
+      font-size:15px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+     color:#777;
+    
+    }
+    
+ .poll button {
+     
+    .submit (); 
+ } 
+ 
+  #resultpoll .text,.percent {
+     font-size:17px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+     color:#666;
+        
+     
+ } 
+ #resultpoll .myselect {
+     font-size:18px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+     color:#F88C00;
+        font-weight:normal;  
+     
+ }  
+ 
+ 
+ .maillisting{
+     text-align:center;
+     
+ }
+.maillisting ul li label {
+    font-size:15px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+     color:#777;
+} 
+
+.maillisting ul li input {
+  .inp2();    
+    
+}
+
+.maillisting ul li select{
+    
+    .selectbtn();
+}
+
+.whoisOnline td{
+    direction:ltr;
+    
+     font-size:15px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+     color:#777;
+}
+.maillisting ul li button {
+  .submit();    
+    
+}
+
+
+
+.form_register {
+    padding: 20px;
+   
+    
+    .raduis(10);
+}
+.form_register ul li label{
+       font-size:15px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+     color:#777;
+    
+}
+.form_register input.name {
+    width: 300px;
+    
+    
+}
+.form_register input,select{
+   /* .inp2();*/
+  .selectbtn();
+     }
+     
+.form_register button{
+    .submit();  
+}   
+
+.form_register div{
+      font-size:15px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+    
+      
+}  
+ 
+/**/
+    
+    
+    
+.form_restorepass ul  li label{
+     font-size:15px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+     color:#222;
+    
+}
+
+
+.form_restorepass input{
+    
+    .inp2();
+     }
+     
+.form_restorepass button{
+    .submit();  
+}  
+
+
+.alert-message-success {
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+    .isa_success();
+    
+}
+
+.alert-message-danger{
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+    .isa_error();
+}
+
+
+/**/
+.text {
+   font-size:15px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+     color:#222;  
+    
+}    
+    
+    
+#contact_us ul{
+   
+    list-style:none;
+     
+    padding: 20px;
+    
+}  
+
+ 
+  
+#contact_us ul li {
+    
+       font-size:15px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+     color:#222;
+}    
+
+
+#contact_us input,textarea{
+    
+    .selectbtn();
+     }
+     
+#contact_us button{
+    .submit();  
+}
+
+#contact_form {
+    width: 200px;
+}
+
+#contact_form div{
+    
+      font-size:15px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+    
+      
+}  
+
+
+#contact_info table tr td{
+       font-size:15px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+     color:#222;
+    
+}
+#contact_info table tr td span{
+       font-size:15px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+     color:#222;
+    
+}
+
+
+ul.tsc_pagination { margin:4px 0; padding:0px; height:100%; overflow:hidden; font:12px 'Tahoma'; list-style-type:none; }
+ul.tsc_pagination li { float:left; margin:0px; padding:0px; margin-left:5px; }
+ 
+ul.tsc_pagination li a { color:black; display:block; text-decoration:none; padding:7px 10px 7px 10px; }
+ 
+ 
+ul.tsc_paginationA li a { color:#FFFFFF; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; }
+ 
+ul.tsc_paginationA01 li a { color:#474747; border:solid 1px #B6B6B6; padding:6px 9px 6px 9px; background:#E6E6E6; background:-moz-linear-gradient(top, #FFFFFF 1px, #F3F3F3 1px, #E6E6E6); background:-webkit-gradient(linear, 0 0, 0 100%, color-stop(0.02, #FFFFFF), color-stop(0.02, #F3F3F3), color-stop(1, #E6E6E6)); }
+ul.tsc_paginationA01 li:hover a,
+ul.tsc_paginationA01 li.current a { background:#FFFFFF; }
+
+/*            ddddddddd       */   
+ 
+ 
+ 
+.category_table a{
+    font-size:14px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+     color:#222;   
+     
+    
+} 
+
+.post_list a{
+   font-size:14px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+     color:#222;   
+    
+}
+ 
+#pp_options li {
+    list-style: none;
+    display:inline-block;
+    float: left;
+    padding-right: 10px;
+    
+    
+} 
+ 
+ /**/
+ #tablecomment  {
+        direction: ltr;
+        
+        
+    }
+#tablecomment tr td {
+     font-size:14px;
+    font-family:"puertoHelve",tahoma;
+    text-shadow:0 1px 0 #fff;
+     color:#222;  
+}   
+.text_field {
+     .selectbtn();
+}    
+ .text_field textarea{
+     width: 400px; 
+      
+      }     
+
+
+.mybutton {
+    .submit();  
+}
+
+.mycslide {
+     text-decoration:none;
+     font-size:14px;
+    font-family:"puertoHelve",tahoma;
+}
+.slideTitle,.nivo-html-caption a {
+    text-decoration:none;
+     font-size:14px;
+    font-family:"puertoHelve",tahoma;
+    
+}
+ 
+    
+
